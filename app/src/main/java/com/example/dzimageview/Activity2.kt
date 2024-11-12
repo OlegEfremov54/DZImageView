@@ -36,6 +36,7 @@ class Activity2 : AppCompatActivity() {
         toolbarFoto.setLogo(R.drawable.fotoalb)
 
         imageIV = findViewById(R.id.imageIV)
+        imageIV.clipToOutline=true
         nextBTN = findViewById(R.id.nextBTN)
 
         imageIV.setImageResource(R.drawable.im01)
@@ -74,7 +75,7 @@ class Activity2 : AppCompatActivity() {
             R.id.exitMenuMain ->{
                 Toast.makeText(applicationContext, "Работа приложения завершена",
                     Toast.LENGTH_LONG).show()
-                finish()
+                finishAffinity()
             }
         }
         return super.onOptionsItemSelected(item)

@@ -22,6 +22,7 @@
         android:layout_height="300dp"
         android:layout_gravity="center"
         android:scaleType="centerInside"
+        android:background="@drawable/round_outline"
         app:layout_constraintBottom_toTopOf="@+id/nextBTN"
         app:layout_constraintTop_toBottomOf="@+id/toolbarFoto"
         tools:ignore="MissingConstraints"

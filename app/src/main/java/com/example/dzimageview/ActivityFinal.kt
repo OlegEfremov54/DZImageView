@@ -55,7 +55,7 @@ class ActivityFinal : AppCompatActivity() {
             R.id.exitMenuMain ->{
                 Toast.makeText(applicationContext, "Работа приложения завершена",
                     Toast.LENGTH_LONG).show()
-                finish()
+                finishAffinity()
             }
         }
         return super.onOptionsItemSelected(item)
