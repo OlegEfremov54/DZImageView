@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DZImageView</string>
+    <string name="infoStr">Информация о приложении</string>
+    <string name="exit">Выход из приложения</string>
+    <string name="text_view_finish">Спасибо за просмотр! До свидания</string>
+    <string name="button_finish">Завершение работы</string>
+    <string name="text_view_title">Вас приветствует альбом любимых фотографий</string>
+    <string name="button_start">Начать просмотр</string>
+    <string name="button_next">Следующее фото</string>
+</resources>
