@@ -39,10 +39,10 @@ class Activity2 : AppCompatActivity() {
         nextBTN = findViewById(R.id.nextBTN)
 
         imageIV.setImageResource(R.drawable.im01)
-        var count = 1
+        var foto = 1
         nextBTN.setOnClickListener{view ->
-            count++
-            when(count) {
+            foto++
+            when(foto) {
                 2 -> imageIV.setImageResource(R.drawable.im02)
                 3 -> imageIV.setImageResource(R.drawable.im03)
                 4 -> imageIV.setImageResource(R.drawable.im04)
